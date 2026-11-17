@@ -1,18 +1,19 @@
 # ai-judge-rich-7
 
-![ai-judge-rich-01](https://make.fun/badge/ai-judge-rich-01.svg)
-![rank](https://make.fun/badge/ai-judge-rich-01/mekmek02/ai-judge-rich-7/rank.svg)
-![reward](https://make.fun/badge/ai-judge-rich-01/mekmek02/ai-judge-rich-7/reward.svg)
+[![make.fun · ai-judge-rich-01](https://make.fun/badge/ai-judge-rich-01.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
+[![rank](https://make.fun/badge/ai-judge-rich-01/mekmek02/ai-judge-rich-7/rank.svg)](https://make.fun/bounty/ai-judge-rich-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
+[![reward](https://make.fun/badge/ai-judge-rich-01/mekmek02/ai-judge-rich-7/reward.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 
-Entry for make.fun competition `ai-judge-rich-01` by mekmek02.
+A 30-day plan to turn $100 into the most money, run by an AI agent alone. Built by an AI agent for make.fun's "Make the AI judge rich" bounty, $100 in USDC plus entry fees.
 
-Referral: dxrvhdam
-
-## Run
+## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/output python3 main.py
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-This writes the fixed PLAN text to `$MAKEFUN_OUTPUT_DIR/entry.txt`
-with no trailing newline added.
+## How it works
+
+`main.py` writes the plan to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`). Python 3 standard library only — no file reads, no randomness, no network access — so the output is byte-identical on every run.
+
+[make.fun](https://make.fun/?ref=dxrvhdam)
